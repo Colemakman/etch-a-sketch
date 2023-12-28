@@ -1,0 +1,26 @@
+:root {
+    --size: 6.25%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px solid lightgray;
+    flex: 1 0 var(--size);
+    box-sizing: border-box;
+}
